@@ -2,7 +2,7 @@ const getLocation = () =>{
     if(navigator.geolocation){
         navigator.geolocation.getCurrentPosition((position)=>{
             setInterval(()=>{
-              fetch(`http://geofence.balaji.ml/receive_data`,{
+              fetch(`https://geofence.balaji.ml/receive_data`,{
                 method:"POST",
                 crossorigin: true,    
                 mode: 'no-cors',  
