@@ -3,7 +3,7 @@ const getLocation = () =>{
         navigator.geolocation.getCurrentPosition((position)=>{
             setInterval(()=>{
                 console.log(position.coords.latitude);
-                console.log(position.coords.longitue);
+                console.log(position.coords.longitude);
               fetch(`https://geofence.balaji.ml/receive_data`,{
                 method:"POST",
                 crossorigin: true,    
