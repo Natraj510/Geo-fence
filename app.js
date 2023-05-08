@@ -12,8 +12,8 @@ const getLocation = () =>{
                   'Content-Type':'application/json'
                 },
                 body:JSON.stringify({
-                  "center-lat":  12.860930336692546,
-                  "center-lon": 80.0686152373018,
+                  "center-lat":  12.875745779897763,
+                  "center-lon": 80.08328875595485,
                   "lat":   position.coords.latitude,
                   "lon":  position.coords.longitude
               })
